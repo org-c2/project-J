@@ -27,9 +27,9 @@ import dcnet.tutorial.c01.business.service.UserRegisterService;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)
-public class UserInfoServiceExcelTest {
+public class T02UserInfoServiceExcelTest {
 
-    Logger log = LoggerFactory.getLogger(UserInfoServiceTest.class);
+    Logger log = LoggerFactory.getLogger(T01UserInfoServiceTest.class);
 
     @Autowired
     private UserRegisterService userRegisterService;
